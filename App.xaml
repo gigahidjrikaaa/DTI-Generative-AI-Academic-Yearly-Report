@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="DTI_Generative_AI_Academic_Yearly_Report.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:DTI_Generative_AI_Academic_Yearly_Report"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--  Set Colors  -->
+        <SolidColorBrush x:Key="DTI-Blue" Color="#FF073C64" />
+        <SolidColorBrush x:Key="DTI-Blue-Light" Color="#FF0A4F7D" />
+        <SolidColorBrush x:Key="DTI-Yellow" Color="#FFFDCB2C" />
+        <SolidColorBrush x:Key="DTI-Yellow-Light" Color="#FFFFE66C" />
+        <SolidColorBrush x:Key="DTI-White" Color="#FFEEEEEE" />
+        <SolidColorBrush x:Key="DTI-Black" Color="#FF000000" />
+    </Application.Resources>
+</Application>
