@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DTI_Generative_AI_Academic_Yearly_Report.Model
 {
-    class ExcelInputModel
+    class DocumentModel
     {
         private int id;
-        private string name;
+        private string title;
         private string description;
         private DateTime uploadedAt;
         private DateTime updatedAt;
@@ -18,7 +18,7 @@ namespace DTI_Generative_AI_Academic_Yearly_Report.Model
         public string[] tags;
 
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Title { get; set; }
         public string Description { get; set; }
         public DateTime UploadedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
@@ -26,7 +26,7 @@ namespace DTI_Generative_AI_Academic_Yearly_Report.Model
         public string[] CoAuthor { get; set; }
         public string[] Tags { get; set; }
 
-        public ExcelInputModel()
+        public DocumentModel()
         {
             Console.WriteLine("Excel Input Loaded");
         }
