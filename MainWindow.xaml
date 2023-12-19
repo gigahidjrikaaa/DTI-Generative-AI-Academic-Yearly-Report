@@ -5,7 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:DTI_Generative_AI_Academic_Yearly_Report.Helper"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:vm="clr-namespace:DTI_Generative_AI_Academic_Yearly_Report.ViewModel"
+    xmlns:vm="clr-namespace:DTI_Generative_AI_Academic_Yearly_Report.ViewModels"
     x:Name="AcadYearlyReportWindow"
     Title="Acad Yearly Report"
     Width="1350"
@@ -18,6 +18,14 @@
     WindowStartupLocation="CenterScreen"
     WindowStyle="None"
     mc:Ignorable="d">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"></BooleanToVisibilityConverter>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <vm:DocumentViewModel/>
+    </Window.DataContext>
     <Grid>
         <Border
             x:Name="AcadYearlyReportBorder"
@@ -28,6 +36,7 @@
             CornerRadius="10, 10, 0, 10">
             <Frame Content="Frame" />
         </Border>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
