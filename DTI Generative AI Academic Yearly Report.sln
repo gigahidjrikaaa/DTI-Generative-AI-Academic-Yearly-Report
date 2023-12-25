@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.6.33829.357
+VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTI Generative AI Academic Yearly Report", "DTI Generative AI Academic Yearly Report.csproj", "{B143413E-E424-46D2-BBAA-6EDC045B79ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTI Generative AI Academic Yearly Report", "DTI Generative AI Academic Yearly Report.csproj", "{2008C6D2-5206-49FE-B184-7FFA6FA66006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B143413E-E424-46D2-BBAA-6EDC045B79ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B143413E-E424-46D2-BBAA-6EDC045B79ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B143413E-E424-46D2-BBAA-6EDC045B79ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B143413E-E424-46D2-BBAA-6EDC045B79ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2008C6D2-5206-49FE-B184-7FFA6FA66006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2008C6D2-5206-49FE-B184-7FFA6FA66006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2008C6D2-5206-49FE-B184-7FFA6FA66006}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2008C6D2-5206-49FE-B184-7FFA6FA66006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2008C6D2-5206-49FE-B184-7FFA6FA66006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2008C6D2-5206-49FE-B184-7FFA6FA66006}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8C5EFA7E-65AE-4CBA-81AC-2A3EF3C15BA8}
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 	EndGlobalSection
 EndGlobal

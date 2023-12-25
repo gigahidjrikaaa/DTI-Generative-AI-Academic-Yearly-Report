@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="DTI_Generative_AI_Academic_Yearly_Report.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:DTI_Generative_AI_Academic_Yearly_Report.WinUI">
+
+</maui:MauiWinUIApplication>

@@ -1,11 +1,9 @@
 ﻿namespace DTI_Generative_AI_Academic_Yearly_Report;
 
-public partial class App : Application
+public partial class AppShell : Shell
 {
-	public App()
+	public AppShell()
 	{
 		InitializeComponent();
-
-		MainPage = new AppShell();
 	}
 }
