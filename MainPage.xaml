@@ -10,12 +10,12 @@
             Spacing="25"
             VerticalOptions="Center">
 
-            <!-- Image from Images\UGM\Logo Tengah Stack-Up.png -->
+            <!-- Image from ugm/logo-tengah.png -->
             <Image
                 Aspect="AspectFit"
                 HeightRequest="200"
                 HorizontalOptions="Center"
-                Source="UGM/Logo-Tengah-Stack-Up.png"
+                Source="lambang_ugm_putih.png"
                 WidthRequest="200" />
 
             <Label
