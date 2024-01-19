@@ -38,6 +38,13 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Click me" />
 
+            <Button
+                x:Name="AboutBtn"
+                Clicked="OnAboutClicked"
+                HorizontalOptions="Center"
+                SemanticProperties.Hint="Learn more about .NET MAUI"
+                Text="Learn More" />
+
         </VerticalStackLayout>
     </ScrollView>
 
